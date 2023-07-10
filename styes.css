@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+html{
+    font-size: 15px;
+}
+body{
+    max-width: 1200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+}
+p{
+    line-height: 1rem;
+    color: hsl(233, 8%, 79%);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+margin-left: 45px;
+}
+
+main{
+    margin: 50px;
+    margin-top: 10px;
+}
+section{
+   display: flex;
+   padding: 2px;
+   gap: 2rem;
+   margin-bottom: 10px;
+}
+
+.part1{
+    padding: 1.25rem;
+    padding-top: 0;
+   
+}
+.part1 article{
+    display: flex;
+   place-items: center;
+    gap: 5rem;
+    width: 600px;
+}
+.part1 h1{
+    font-size: 26px;
+    font-weight: 800px;
+    margin-top: 1rem;
+    color: hsl(240, 100%, 5%);
+}
+.part1 article p{
+margin-bottom: 1rem;
+}
+    .part1 article button{
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    padding: 0.8rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    transition: all 0.3s ease-in-out;
+    }
+    .part1 article button:hover{
+        background-color: hsl(240, 100%, 5%);
+        cursor: pointer;
+    }
+
+
+    .part2{
+        background-color: hsl(240, 100%, 5%);
+        padding:10px;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .part2 article{
+        border-bottom: 2px solid hsl(236, 13%, 42%);
+        padding: 5px;
+    }
+    .part2 article:first-child{
+        padding-top: 0;
+    }
+    .part2 article:last-child{
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .part2 h3{
+        font-size: 2.24rem;
+        margin-bottom: 1rem;
+        color: hsl(35, 77%, 62%);
+    }
+    .part2 h5{
+        color: hsl(36, 100%, 99%);
+        font-size: 1rem;
+        margin-bottom: 1.25rem;
+    }
+    .part2 h5:hover{
+        color: hsl(35, 77%, 62%);
+        cursor: pointer;
+    }
+
+.part2 p{
+    padding-bottom: 0.2rem;
+}
+
+        .part3{ 
+            display: flex;
+            gap: 3px;
+            margin-left: 30px;
+            justify-content: space-evenly;
+        }
+        .part3 img{
+            width: 100px;
+        }
+        .part3 article{
+            display: flex;
+            align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+        }
+        .part3 article span{
+            color: hsl(236, 13%, 42%);
+            font-weight: bold;
+            font-size: 2rem;
+            opacity: 65%;
+        }
+        .part3 h4{
+            color: hsl(240, 100%, 5%);
+            margin: 1rem 0;
+        }
+        
+      
+   
+
+
+
+
+
+
+
+
+
+
