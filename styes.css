@@ -63,12 +63,12 @@ section{
 .part1 h1{
     font-size: 26px;
     font-weight: 800px;
-    margin-top: 1rem;
+    margin-top: 2rem;
     color: hsl(240, 100%, 5%);
 }
 .part1 article p{
-margin-bottom: 1.5rem;
-margin-top: 1.5rem;
+margin-bottom: 2rem;
+margin-top: 2rem;
 }
     .part1 article button{
     background-color: hsl(5, 85%, 63%);
@@ -128,10 +128,11 @@ margin-top: 1.5rem;
 
         .part3{ 
             display: flex;
-            gap: 3px;
+            gap: 10spx;
             margin-left: 25px;
             justify-content: space-evenly;
             margin-right:25px ;
+            margin-top: 30px;
         }
         .part3 img{
             width: 100px;
@@ -139,8 +140,8 @@ margin-top: 1.5rem;
         .part3 article{
             display: flex;
             align-items: center;
-    gap: 10px;
-    margin-top: 20px;
+            gap: 10px;
+            margin-top: 20px;
         }
         .part3 article span{
             color: hsl(236, 13%, 42%);
