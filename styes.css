@@ -10,8 +10,9 @@ html{
 }
 body{
     max-width: 1200px;
+    margin: 50px;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 100px ;
 }
 img{
     max-width: 100%;
@@ -34,11 +35,11 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 1.25rem;
-margin-left: 45px;
+margin-left: 55px;
 }
 
 main{
-    margin: 50px;
+    margin: 60px;
     margin-top: 10px;
 }
 section{
@@ -66,7 +67,8 @@ section{
     color: hsl(240, 100%, 5%);
 }
 .part1 article p{
-margin-bottom: 1rem;
+margin-bottom: 1.5rem;
+margin-top: 1.5rem;
 }
     .part1 article button{
     background-color: hsl(5, 85%, 63%);
@@ -108,6 +110,7 @@ margin-bottom: 1rem;
         font-size: 2.24rem;
         margin-bottom: 1rem;
         color: hsl(35, 77%, 62%);
+        padding-top: 25px;
     }
     .part2 h5{
         color: hsl(36, 100%, 99%);
@@ -120,14 +123,15 @@ margin-bottom: 1rem;
     }
 
 .part2 p{
-    padding-bottom: 0.2rem;
+    padding-bottom: 1rem;
 }
 
         .part3{ 
             display: flex;
             gap: 3px;
-            margin-left: 30px;
+            margin-left: 25px;
             justify-content: space-evenly;
+            margin-right:25px ;
         }
         .part3 img{
             width: 100px;
